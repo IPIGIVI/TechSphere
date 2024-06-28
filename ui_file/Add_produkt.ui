@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>373</width>
+    <height>217</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>TechSphere</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>ico/Shop.png</normaloff>ico/Shop.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(81, 0, 135, 255), stop:0.422343 rgba(41, 61, 132, 235), stop:1 rgba(155, 79, 165, 255));</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label_name">
+    <property name="geometry">
+     <rect>
+      <x>9</x>
+      <y>9</y>
+      <width>100</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgba(0,0,0,0)</string>
+    </property>
+    <property name="text">
+     <string>Названик/Модель</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="tetx_price">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>80</y>
+      <width>351</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_price">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>28</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgba(0,0,0,0)</string>
+    </property>
+    <property name="text">
+     <string>Цена</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_type">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>110</y>
+      <width>71</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgba(0,0,0,0)</string>
+    </property>
+    <property name="text">
+     <string>Тип товара</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="text_type">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>130</y>
+      <width>351</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    border-radius:4px;
+	font-size:17px;
+}
+QPushButton:hover {
+font-size:15px;
+border-radius:4px;
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(81, 0, 135, 255), stop:0.422343 rgba(155, 79, 165, 255), stop:1 rgba( 41, 61, 132, 235));
+    color: white; 
+}</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>Бытовая техника</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Красота и здоровье</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Смартфоны</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Консоли и аудио</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ПК</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Комплектующие</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Офис</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Отдых</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Инструмент</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Сад</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Дом</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Автотовары</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Аксессуары</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="add_button">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>190</y>
+      <width>121</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    border-radius:4px;
+	font-size:17px;
+}
+QPushButton:hover {
+font-size:15px;
+border-radius:4px;
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(81, 0, 135, 255), stop:0.422343 rgba(155, 79, 165, 255), stop:1 rgba( 41, 61, 132, 235));
+    color: white; 
+}</string>
+    </property>
+    <property name="text">
+     <string>Добавить</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="text_model">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>351</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Home">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>190</y>
+      <width>121</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    border-radius:4px;
+	font-size:17px;
+}
+QPushButton:hover {
+font-size:15px;
+border-radius:4px;
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(81, 0, 135, 255), stop:0.422343 rgba(155, 79, 165, 255), stop:1 rgba( 41, 61, 132, 235));
+    color: white; 
+}</string>
+    </property>
+    <property name="text">
+     <string>Главная</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
